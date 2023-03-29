@@ -26,9 +26,6 @@ class PublicBlogView(APIView):
             page = paginator.get_page(page_number)
             serializer = BlogSerializer(page, many=True)
              
-
-            
-
             return Response({
                 'data' : serializer.data,
                 'message' : 'blogs fetched successfully'
