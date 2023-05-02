@@ -1,4 +1,4 @@
-### Django BlogAPI
+# Django BlogAPI
 This is a Django-based web application that allows users to register and log in, and create and view blog posts through API endpoints.
 
 ## Features
@@ -60,7 +60,7 @@ To log in, send a POST request to http://localhost:8000/api/blog_account/login/ 
     "username": "your_username", 
     "password": "your_password" 
 }
-```
+
 This will return a JWT token that you can use to authenticate subsequent requests.
 
 ### 3.Create a blog post
