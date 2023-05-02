@@ -1,4 +1,4 @@
-# Django BlogAPI
+### Django BlogAPI
 This is a Django-based web application that allows users to register and log in, and create and view blog posts through API endpoints.
 
 ## Features
