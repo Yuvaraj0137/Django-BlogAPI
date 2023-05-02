@@ -119,5 +119,5 @@ Make sure to include the JWT token in the Authorization header of the request, l
 Authorization: Bearer <your_token_here>
 ```
 
-## Credits
+# Credits
 This project was built by Yuvaraj-Ponnusamy.
